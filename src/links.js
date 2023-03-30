@@ -2,7 +2,6 @@ const links = [
   {
     id: 1,
     link: "HOME",
-    
   },
   {
     id: 2,

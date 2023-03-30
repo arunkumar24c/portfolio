@@ -8,16 +8,21 @@ import Portfolio from "./component/Portfolio";
 import Experience from "./component/Experience";
 import Contact from "./component/Contact";
 
-
 const App = () => {
   return (
     <div>
       <Navbar />
+
       <Home />
+
       <About />
+
       <Portfolio />
+
       <Experience />
+
       <Contact />
+      
       <SocialLink />
     </div>
   );

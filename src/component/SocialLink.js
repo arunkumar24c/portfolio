@@ -51,7 +51,7 @@ const SocialLink = () => {
           Whatsapp <FaWhatsapp size={30} />
         </>
       ),
-      href: "#",
+      href: "https://web.whatsapp.com/9894980367",
       style: "rounded-tr-md",
     },
   ];

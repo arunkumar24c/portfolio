@@ -1,43 +1,45 @@
 import React from "react";
+import Ecom from "../assets/Ecommerces.png";
+import todo from "../assets/Todo list.png";
+import weather from "../assets/weather.png";
+import movie from "../assets/movie.png";
+import count from "../assets/count down.png";
+import birthday from "../assets/birthday remainder.png";
+
 
 const Portfolio = () => {
-
   // array
   const portfolios = [
     {
       id: 1,
-      src: "#",
+      src: Ecom,
     },
     {
       id: 2,
-      src: "#",
+      src: birthday,
     },
     {
       id: 3,
-      src: "#",
+      src: count,
     },
     {
       id: 4,
-      src: "#",
+      src: movie,
     },
     {
       id: 5,
-      src: "#",
+      src: weather,
     },
     {
       id: 6,
-      src: "#",
+      src: todo,
     },
   ];
 
-
-
-
-
   return (
     <div
-      name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      name="PORTFOLIO"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -53,7 +55,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md w-30 duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <button className=" px-6 py-3 m-4 duration-200 hover:scale-105">
