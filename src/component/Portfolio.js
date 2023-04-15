@@ -38,13 +38,13 @@ const Portfolio = () => {
 
   return (
     <div
-      name="PORTFOLIO"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen "
+      name="PROJECT"
+      className="bg-gradient-to-b from-black to-gray-800 w-full h-full  text-white md:h-screen "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
+            Project
           </p>
           <p className="py-6">check out some of my work right here </p>
         </div>
@@ -55,13 +55,13 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md w-30 duration-200 hover:scale-105"
+                className="rounded-md w-25 duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <button className=" px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
-                <button className=" px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button className=" px-6 py-3 m-4 duration-200 hover:scale-105 ">
                   Code
                 </button>
               </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { BsPersonLinesFill } from "react-icons/bs";
+import ReactWhatsapp from "react-whatsapp";
 
 const SocialLink = () => {
   const links = [
@@ -22,7 +23,7 @@ const SocialLink = () => {
           Github <FaGithub size={30} />
         </>
       ),
-      href: "https://https://github.com/arunkumar24c",
+      href: "https://github.com/arunkumar24c?tab=repositories",
     },
     {
       id: 3,
@@ -40,7 +41,8 @@ const SocialLink = () => {
           Resume <BsPersonLinesFill size={30} />
         </>
       ),
-      href: "#",
+      url: "file:///C:/Users/arunkumar/Downloads/Arunkumar%20Resume.pdf",
+      target: "_blank",
       style: "rounded-tr-md",
       download: true,
     },
@@ -49,9 +51,10 @@ const SocialLink = () => {
       child: (
         <>
           Whatsapp <FaWhatsapp size={30} />
+          {/* <ReactWhatsapp number="9894980367" message="Hello World!!!" /> */}
         </>
       ),
-      href: "https://web.whatsapp.com/9894980367",
+      href: "https://web.whatsapp.com/",
       style: "rounded-tr-md",
     },
   ];
@@ -59,7 +62,7 @@ const SocialLink = () => {
   return (
     <div className=" hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
-        {links.map(({ id, child, href, style, download }) => (
+        {links.map(({ id, child, href, style, download, target }) => (
           <li
             key={id}
             className={

@@ -9,7 +9,7 @@ const links = [
   },
   {
     id: 3,
-    link: "PORTFOLIO",
+    link: "PROJECT",
   },
   {
     id: 4,

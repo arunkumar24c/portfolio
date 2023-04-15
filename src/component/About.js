@@ -21,7 +21,7 @@ const About = () => {
           .
         </p>
         <br />
-        <p className="text-xl text-justify">
+        <p className="text-xl text-justify mb-11">
           I create visually appealing and user-friendly interfaces with a focus
           on detail, and stay up-to-date with the latest frontend technologies
           and best practices. I am skilled in troubleshooting , and have a
