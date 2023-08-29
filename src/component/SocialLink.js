@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { BsPersonLinesFill } from "react-icons/bs";
-import ReactWhatsapp from "react-whatsapp";
+// import ReactWhatsapp from "react-whatsapp";
 
 const SocialLink = () => {
   const links = [
@@ -50,8 +50,10 @@ const SocialLink = () => {
       id: 5,
       child: (
         <>
-          Whatsapp <FaWhatsapp size={30} />
-          {/* <ReactWhatsapp number="9894980367" message="Hello World!!!" /> */}
+          Whatsapp
+          <a href="https://wa.me/+919894980367" target="_blank">
+            <FaWhatsapp size={30} />
+          </a>
         </>
       ),
       href: "https://web.whatsapp.com/",
